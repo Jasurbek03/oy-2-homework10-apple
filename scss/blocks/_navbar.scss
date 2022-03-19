@@ -1,0 +1,19 @@
+
+.nav__list {
+  @include flex(center, space-between);
+  @include list-nostyle;
+  margin-right: 36px;
+}
+
+.nav__item ~ .nav__item {
+  margin-left: 33px;
+}
+
+.nav__link {
+  padding-bottom: 5px;
+  @include linkStyle(none, 18px, 24px, #646464);
+}
+
+.nav__link:hover {
+  border-bottom: 2px solid #646464;
+}

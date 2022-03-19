@@ -1,0 +1,37 @@
+.hero {
+  background-image: url("../../images/wristwatch.jpg");
+  background-repeat: no-repeat;
+  background-size: 736px 704px;
+  background-position: calc(50% - -710px) - 0px;
+  border-bottom: 1px solid #646464;
+}
+
+.hero__content {
+  padding-top: 130px;
+  padding-bottom: 250px;
+}
+
+.hero__heading {
+  font-size: 42px;
+  margin-bottom: 60px;
+}
+
+.hero__text {
+  max-width: 476px;
+  margin-bottom: 45px;
+  padding: 0 30px;
+  font-size: 18px;
+  line-height: 24px;
+  border-left: 2px solid #646464;
+}
+
+.hero__btn {
+  padding: 12px 24px;
+  border: none;
+  color: #ffffff;
+  background-color: #e9544e;
+}
+
+.hero__btn:hover {
+  background-color: #b93a36;
+}
